@@ -55,10 +55,10 @@ function App() {
       ],
     },
   ];
-  return (
-    <div className="App">
-    <MenuApp data = {menuData} /> 
-    </div>
-  );
+ return (
+  <div className="App">
+   <MenuApp data = {menuData}/>
+  </div>
+ );
 }
 export default App
